@@ -1,0 +1,20 @@
+# Ignorera node-moduler
+node_modules/
+
+# Ignorera genererade filer från Webpack
+dist/
+
+# Ignorera loggar och temporära filer
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignorera testloggar
+.jest/
+
+# Ignorera OS- och editor-specifika filer
+.DS_Store
+Thumbs.db
+
+# Ignorera Selenium-drivrutinen om du lagt den manuellt
+geckodriver.exe
